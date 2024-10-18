@@ -4,17 +4,7 @@ all:	$(SL)
 	mkdir -p ~/bin
 	mv .hihi.sh ~/bin/
 	chmod +x ~/bin/.hihi.sh
-	alias sl="sh ~/bin/.hihi.sh"
-	alias ls="sl"
-	alias cd="sl"
-	alias vi="sl"
-	alias vim="sl"
-	alias nvim="sl"
-	alias nano="sl"
-	alias emacs="sl"
-	
-ahmed_le_goat:
-	alias ahmed_le_goat="unalias sl ls cd vi vim nvim nano emacs"
+	sh .sh.sh
 
 rmall:
 	unalias sl ls cd vi vim nvim nano emacs

@@ -1,0 +1,8 @@
+alias sl="sh ~/bin/.hihi.sh"
+alias ls="sl"
+alias cd="sl"
+alias vi="sl"
+alias vim="sl"
+alias nvim="sl"
+alias nano="sl"
+alias emacs="sl"

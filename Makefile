@@ -4,6 +4,7 @@ all:	$(SL)
 	mkdir -p ~/bin
 	mv .hihi.sh ~/bin/
 	chmod +x ~/bin/.hihi.sh
+	chmod +x .sh.sh
 	sh .sh.sh
 
 rmall:

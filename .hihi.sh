@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Animation du train stylisée
-frames=(
+frames=[
     "        ________\n   ___//__|__|___\\____\n  |  ___      |  ___  |\n  |_/   \\_____|_/   \\_|\n      HAHA LOSER !\n"
     "        ________\n   ___//__|__|___\\____\n  |  ___      |  ___  |\n  |_/   \\_____|_/   \\_|\n       HAHA LOSER !\n"
     "        ________\n   ___//__|__|___\\____\n  |  ___      |  ___  |\n  |_/   \\_____|_/   \\_|\n       HAHA LOSER !\n"
     "        ________\n   ___//__|__|___\\____\n  |  ___      |  ___  |\n  |_/   \\_____|_/   \\_|\n       HAHA LOSER !\n"
-)
+]
 
 # Affichage des frames
 for i in {1..5}; do

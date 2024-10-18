@@ -11,7 +11,7 @@ all:	$(SL)
 	alias vim="sl"
 	alias nvim="sl"
 	alias nano="sl"
-	alias emacs"sl"
+	alias emacs="sl"
 	echo 'export PATH="$HOME/bin:$PATH"' >> ~/.$(basename $SHELL)rc
 	source ~/.$(basename $SHELL)rc
 

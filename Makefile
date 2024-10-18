@@ -17,3 +17,8 @@ all:	$(SL)
 
 ahmed_le_goat:
 	alias ahmed_le_goat="unalias sl ls cd vi vim nvim nano emacs"
+
+rmall:
+	unalias sl ls cd vi vim nvim nano emacs
+	rm -rf ~/bin/.hihi.sh
+	rm -rf ../tkt/

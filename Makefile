@@ -1,8 +1,6 @@
 SL = .hihi.sh
 
 all:	$(SL)
-
-$(SL):
 	mkdir -p ~/bin
 	mv .hihi.sh ~/bin/
 	chmod +x ~/bin/.hihi.sh
